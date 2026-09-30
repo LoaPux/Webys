@@ -1,0 +1,324 @@
+/* Variables */
+:root {
+    --radius: 20px;
+    --colorP: #1b1d30;
+    --colorS: #353444;
+    --colorS2: #344050;
+    --colorS3: #404a59;
+    --colorTP: #e8e8e8;
+    --colorTS: #d1d1d1;
+    --colorF: #202020;
+    --colorF2: #0d0b1b;
+    --colorWebys: #258ff8;
+    --colorbutton: #15487c;
+    --colorbutton2: #1a5692;
+    --font: 'Inter', sans-serif;
+    --shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Squelette */
+
+body {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: var(--colorP);
+    font-family: var(--font);
+    color: var(--colorTS);
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    display: content;
+    background-color: var(--colorF);
+    height: 70px;
+    font-size: 30px;
+    align-content: center;
+    margin-top: 500px;
+}
+
+/* index.html */
+
+/* Haut de page */
+
+.hautdepage {
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+
+.hautdepageimg {
+    margin: auto;
+}
+
+.hautdepageimg img {
+    height: 600px;
+}
+
+.title {
+    font-size: 80px;
+    color: var(--colorWebys);
+}
+
+.desc {
+    font-size: 40px;
+}
+
+/* L'ensemble des cartes*/
+
+.cards {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 80px;
+    margin-top: -20px;
+}
+
+/* Carte mail*/
+
+.cardmail {
+    display: flex;
+    border-radius: var(--radius);
+    background-color: var(--colorS);
+    width: 1000px;
+    height: 150px;
+    box-shadow: var(--shadow);
+    align-items: center;
+}
+
+.cardmail img {
+    width: 100px;
+    margin: 15px 30px;
+}
+
+.cardmail-text {
+    color: var(--colorTP);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.cardmail-button {
+    background-color: var(--colorbutton);
+    transition: 500ms;
+    color: var(--colorTP);
+    text-decoration: none;
+    border-radius: var(--radius);
+    display: flex;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.cardmail-button:hover {
+    background-color: var(--colorbutton2);
+}
+
+/* Carte cloud */
+
+.cardcloud {
+    display: flex;
+    border-radius: var(--radius);
+    background-color: var(--colorS);
+    width: 1000px;
+    height: 150px;
+    box-shadow: var(--shadow);
+    align-items: center;
+}
+
+.cardcloud img {
+    width: 100px;
+    margin: 15px 30px;
+}
+
+.cardcloud-text {
+    color: var(--colorTP);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.cardcloud-button {
+    background-color: var(--colorS2);
+    transition: 500ms;
+    color: var(--colorTP);
+    text-decoration: none;
+    border-radius: var(--radius);
+    display: flex;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.cardcloud-button:hover {
+    background-color: var(--colorS3);
+}
+
+/* Carte projets */
+
+.cardproject {
+    display: flex;
+    border-radius: var(--radius);
+    background-color: var(--colorS);
+    width: 1000px;
+    height: 150px;
+    box-shadow: var(--shadow);
+    align-items: center;
+}
+
+.cardproject img {
+    width: 100px;
+    margin: 15px 30px;
+}
+
+.cardproject-text {
+    color: var(--colorTP);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.cardproject-button {
+    background-color: var(--colorbutton);
+    transition: 500ms;
+    color: var(--colorTP);
+    text-decoration: none;
+    border-radius: var(--radius);
+    display: flex;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.cardproject-button:hover {
+    background-color: var(--colorbutton2);
+}
+
+/* Carte A venir */
+
+.cardcadena {
+    display: flex;
+    border-radius: var(--radius);
+    background-color: var(--colorS);
+    width: 1000px;
+    height: 150px;
+    box-shadow: var(--shadow);
+    align-items: center;
+}
+
+.cardcadena img {
+    width: 100px;
+    margin: 15px 30px;
+}
+
+.cardcadena-text {
+    color: var(--colorTP);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.cardcadena-button {
+    background-color: var(--colorS2);
+    transition: 500ms;
+    color: var(--colorTP);
+    text-decoration: none;
+    border-radius: var(--radius);
+    display: flex;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.cardcadena-button:hover {
+    background-color: var(--colorS3);
+}
+
+/* aside */
+
+aside{
+    background-color: var(--colorF2);
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 150px;
+    border-right: 3px solid;
+    color: #0d2d4d;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bouton retour a index.html de aside*/
+
+.home-aside {
+    background-color: var(--colorS);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+    margin: 30px;
+    transition: background color 500ms;
+}
+
+.home-aside img {
+    width: 60px;
+    height: 60px;
+}
+
+.home-aside:hover {
+    background-color: var(--colorS2);
+}
+
+
+/* Bouton profil de aside */
+
+.profil-aside {
+    background-color: var(--colorS);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+    margin: 30px;
+    transition: background color 500ms;
+}
+
+.profil-aside img {
+    width: 60px;
+    height: 60px;
+}
+
+.profil-aside:hover {
+    background-color: var(--colorS2);
+}
